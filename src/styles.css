@@ -1,0 +1,75 @@
+:root {
+  --gradient: linear-gradient(
+    109.6deg,
+    rgb(251, 186, 186) 11.2%,
+    rgb(200, 122, 245) 91.2%
+  );
+  --main-color: #521262;
+  --accent-color: #6639a6;
+  --btn-color: #fac0e1;
+}
+body {
+  background: var(--gradient);
+}
+a {
+  display: block;
+  text-align: center;
+  color: #57385c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 96px;
+  color: var(--main-color);
+}
+h2 {
+  font-size: 48px;
+  color: var(--main-color);
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  color: var(--accent-color);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+p {
+  background: var(--btn-color);
+  padding: 15px;
+
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.navigation-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.navigation-links a {
+  border: 1px solid var(--accent-color);
+  color: var(--btn-color);
+  background: var(--accent-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px 20px;
+  text-decoration: none;
+
+  font-size: 17px;
+}
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+.about-paragraphs p {
+  margin: 10px;
+}
