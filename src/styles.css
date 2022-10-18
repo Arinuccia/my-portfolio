@@ -7,6 +7,7 @@
   --main-color: #521262;
   --accent-color: #6639a6;
   --btn-color: #fac0e1;
+  --navbar-background-color: #f5c7f7;
 }
 body {
   background: var(--gradient);
@@ -40,7 +41,7 @@ h3 {
   text-align: center;
   margin: 0;
 }
-p {
+p .about-me-p {
   background: var(--btn-color);
   padding: 15px;
 
@@ -72,4 +73,13 @@ p {
 }
 .about-paragraphs p {
   margin: 10px;
+}
+.navbar-background-color {
+  background-color: var(--btn-color);
+}
+.homepage-h1 {
+  font-size: 20px;
+}
+.homepage-p {
+  color: #521262;
 }
