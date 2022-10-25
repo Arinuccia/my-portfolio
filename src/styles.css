@@ -60,6 +60,9 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
+  display: block;
+  text-align: center;
+  margin: 0 20px;
 }
 .navigation-links a {
   border: 1px solid var(--accent-color);
