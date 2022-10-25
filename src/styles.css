@@ -60,9 +60,6 @@ img {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
-  display: block;
-  text-align: center;
-  margin: 0 20px;
 }
 .navigation-links a {
   border: 1px solid var(--accent-color);
@@ -73,7 +70,6 @@ img {
   border-radius: 30px;
   padding: 20px 20px;
   text-decoration: none;
-
   font-size: 17px;
 }
 .about-paragraphs {
@@ -95,4 +91,18 @@ img {
 }
 .homepage-p {
   color: #521262;
+}
+.project-links a {
+  display: block;
+  text-align: center;
+  margin: 0 20px;
+  border: 1px solid var(--accent-color);
+  color: var(--btn-color);
+  background: var(--accent-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
 }
