@@ -57,7 +57,11 @@ img {
   border: 1px solid var(--navbar-background-color);
   padding: 10px;
 }
-
+li {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
 .navigation-links {
   display: flex;
   justify-content: space-evenly;
@@ -97,13 +101,13 @@ img {
 .project-links a {
   display: block;
   text-align: center;
-  margin: 0 20px;
+  margin: 0 10px;
   border: 1px solid var(--accent-color);
   color: var(--btn-color);
   background: var(--accent-color);
 
   border-radius: 30px;
-  padding: 20px 20px;
+  padding: 5px 5px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -111,13 +115,38 @@ img {
   display: block;
 
   text-align: center;
-  margin: 0px;
-
+  margin-bottom: 20px;
   border: 1px solid var(--accent-color);
   color: var(--btn-color);
   background-color: var(--accent-color);
   border-radius: 30px;
-  padding: 20px 5px;
+  padding: 15px 7px;
   text-decoration: none;
   font-size: 17px;
+}
+.contact-page-links {
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+}
+a.see-projects-link {
+  display: block;
+  text-align: center;
+  border: 1px solid var(--accent-color);
+  color: var(--btn-color);
+  background: var(--accent-color);
+  border-radius: 30px;
+  padding: 10px;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+.contact-page-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.contact-page-links:hover a {
+  color: var(--main-color);
 }
